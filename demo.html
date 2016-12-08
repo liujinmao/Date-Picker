@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日期选择</title>
+	<link rel="stylesheet" type="text/css" href="datePicker.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="datePicker.js"></script>
+</head>
+<body>
+	<input type="text" name="" class="demo">
+	
+	<script type="text/javascript">
+		let dateSelect = new window.DatePicker({
+			content: $('.demo'),
+			startYear: 2000,
+			endYear: 2100
+		})
+	</script>
+</body>
+</html>
